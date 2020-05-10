@@ -17,8 +17,9 @@
 }
 
 .button {
+  position:relative;
   background-color: #ff5757; 
-  left: 20px;
+  left: 100px;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -26,4 +27,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
 }
