@@ -3,5 +3,27 @@
 }
 
 #header{
-	color: red;
+	color: #ff5757;
+}
+
+.form-group{
+
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #ff5757; 
+  left: 20px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
